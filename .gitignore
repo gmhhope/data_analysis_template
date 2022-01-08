@@ -1,39 +1,134 @@
-# History files
-.Rhistory
-.Rapp.history
+# jupyter notebook
+.local/
 
-# Session Data files
-.RData
+# Specific cases
+**/*.Rproj
+**/.Rproj.user
+**/*.zip
+**/*.webloc
+**/history
+**/Rhistory.R
+**/trash
+**/reference
+**/presentation
 
-# User-specific files
-.Ruserdata
+# Keep gitkeep
+!**/output/.gitkeep
+!**/input/.gitkeep
+!**/reference/.gitkeep
 
-# Example code in package build process
-*-Ex.R
+# Keep README in input/output folders
+**/input/*
+**/output/*
 
-# Output files from R CMD build
-/*.tar.gz
+!**/input/
+!**/output/
 
-# Output files from R CMD check
-/*.Rcheck/
+!**/input/README.md
+!**/output/README.md
 
-# RStudio files
-.Rproj.user/
+# Keep Raw data in track
+!**/input/Raw_data
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# For internal user
+**/README_PRIVATE.md
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
 
-# R Environment Variables
-.Renviron
+# exclude data from source control by default
+data/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
+.Rproj.user
+code/python/MS2/U2C_Mega_ID_Xenobiotics - syn18700801 - Wiki.webloc
