@@ -20,12 +20,19 @@
 # Keep README in input/output folders
 **/input/*
 **/output/*
+**/presentation/*
+**/reference/*
 
 !**/input/
 !**/output/
+!**/presentation/
+!**/reference/
+
 
 !**/input/README.md
 !**/output/README.md
+!**/presentation/README.md
+!**/reference/README.md
 
 # Keep Raw data in track
 !**/input/Raw_data
